@@ -1,0 +1,39 @@
+body{
+    background-color: rebeccapurple
+}
+ul{
+    list-style-type: none;
+    margin-left: 370px;
+    margin-top: 70px;
+    
+}
+li{
+    display: inline-block;
+    font-size: small;
+    text-align: center;
+    height: 30px;
+    width: 80px;
+    cursor: pointer;
+}
+div.i-1{
+    background-color: blue;
+    display: inline-block;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 6px;
+
+}
+div.i-2{
+    background-color: rgb(62, 78, 129);
+    display: inline-block;
+    border: 1px solid gray;
+    padding: 6px;
+    border-radius: 5px;
+}
+li:hover{
+    box-shadow: 5px 3px rgb(38, 89, 155);
+    background-color: rebeccapurple;
+}
+div.i-1:hover{
+    box-shadow: 5px 3px rgb(62, 78, 129);   
+}
