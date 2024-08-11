@@ -1,5 +1,8 @@
 body{
-    background-color: rebeccapurple
+    background-color: rgb(49, 32, 66);
+}
+i{
+    color: rgba(255, 123, 0, 0.616);
 }
 ul{
     list-style-type: none;
@@ -15,18 +18,10 @@ li{
     width: 80px;
     cursor: pointer;
 }
-div.i-1{
-    background-color: blue;
-    display: inline-block;
-    border: 1px solid gray;
-    border-radius: 5px;
-    padding: 6px;
-
-}
-div.i-2{
+li{    
     background-color: rgb(62, 78, 129);
     display: inline-block;
-    border: 1px solid gray;
+    border: 1px solid rgba(99, 90, 90, 0.637);
     padding: 6px;
     border-radius: 5px;
 }
@@ -34,6 +29,17 @@ li:hover{
     box-shadow: 5px 3px rgb(38, 89, 155);
     background-color: rebeccapurple;
 }
-div.i-1:hover{
+li{
     box-shadow: 5px 3px rgb(62, 78, 129);   
+}
+@media only screen and (max-width: 1340px) {
+    body {
+      background-color: rgb(63, 45, 80);
+    }
+    li{
+        display: block;
+    }
+    ul{
+        margin-left: 0px;
+    }
 }
