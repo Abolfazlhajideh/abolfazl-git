@@ -41,5 +41,6 @@ li{
     }
     ul{
         margin-left: 0px;
+        float: right;
     }
 }
